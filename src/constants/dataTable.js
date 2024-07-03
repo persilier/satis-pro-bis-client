@@ -1,0 +1,1 @@
+export const NUMBER_ELEMENT_PER_PAGE = 10;

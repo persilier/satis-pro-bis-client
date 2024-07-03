@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.message-list-container {
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.image-upload > input
+{
+  display: none;
+}
+
+.image-upload i
+{
+  cursor: pointer;
+}
+
+.message_target{
+  margin: 0px;
+  color: black;
+  font-size: 14px;
+  background: #f4f4f4;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

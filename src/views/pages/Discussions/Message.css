@@ -1,0 +1,114 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .timestamp {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-weight: 600;
+  font-size: 10px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.message .author {
+  display: flex;
+  justify-content: flex-start;
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+  /*margin: 10px 0px;*/
+  text-transform: uppercase;
+}
+.message.mine .author {
+  justify-content: flex-end;
+}
+.message .bubble-container {
+  font-size: 14px;
+  display: flex;
+}
+
+.message .bubble-container .container_message {
+  cursor: pointer;
+  display: flex;
+  width: auto;
+}
+
+.message.mine .bubble-container {
+  justify-content: flex-end;
+}
+
+.message.start .bubble-container  .bubble {
+  /* margin-top: 10px; */
+  border-top-left-radius: 20px;
+}
+
+.message.end .bubble-container  .bubble {
+  border-bottom-left-radius: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.message.mine.start .bubble-container  .bubble {
+  margin-top: 10px;
+  border-top-right-radius: 20px;
+}
+
+.message.mine.end .bubble-container .bubble {
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.message .bubble-container .bubble {
+  margin: 1px 0px;
+  background: #f4f4f8;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.message .bubble-container  .bubble-media {
+  margin: 1px 0px;
+  background: #f7f7f7;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.message .time {
+  display: flex;
+  justify-content: flex-start;
+  /*color: #999;*/
+  font-weight: 600;
+  font-size: 10px;
+  margin: 5px 0px;
+  text-transform: uppercase;
+}
+.message.mine .time {
+  justify-content: flex-end;
+}
+
+.message.mine .bubble-container .bubble {
+  background: #26b18a;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.message.mine .bubble-container .bubble-media {
+  background: #f4f4f4;
+  /*color: black;*/
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

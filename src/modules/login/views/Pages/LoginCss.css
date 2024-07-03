@@ -1,0 +1,14 @@
+.input_container {
+    position: relative;
+}
+
+.input_icon {
+    position: absolute;
+    top: 32px;
+    color: grey;
+    left: 390px;
+    font-size: 15px;
+    width: 50px;
+    cursor: pointer;
+
+}
